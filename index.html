@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Demonstration</title>
+</head>
+<body>
+    <!--INLINE CSS EXAMPLE-->
+    
+    <div>
+        <h1 style="color: rgba(51,231,19,0.63); text-align: center;font-size: large;">Welcome to css Demonstrate</h1>
+        <p style="color:blue; font-family:'Lucida Sans', 'Lucida Sans Regular','Lucida Grande','Lucida sans unicode','Geneva','Verdana',sans-serif"></p>
+       
+    </div>
+    <h2>
+        This is used for internal CSS
+    </h2>
+    <h3>This is Subheading</h3>
+    <h4>This is Sub-Subheading</h4>
+    <p id="INLINE-CSS-EXAMPLE">This paragraph is styled using internal CSS.</p>
+    <div class="Country">
+     <h2>India</h2>
+     <p>Capital:New Dehli</p>
+    </div>
+    <div class="Country">
+      <h2>USA</h2>
+      <p>Capital:Washintoin,D.C.</p>
+    </div>
+    <div class="Country">
+     <h2>France</h2>
+     <p>Capital:Paris</p>
+    </div>
+
+    <button>Click Me</button>
+
+    <style>
+        * {
+           margin: 10px;
+           padding: 10px;
+           box-sizing: border-box; 
+        }
+        .Country {
+            border: 2px solid black;
+            padding: 10px;
+            margin: 10px;
+            background-color: #f0f0f0;
+        }
+        #INLINE-CSS-EXAMPLE {
+            color: green;
+            font-weight: bold;
+            text-align: center;
+
+        }
+        h2, h3, h4 {
+            color: darkblue;
+        }
+        button{
+            background-color: orange;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        
+
+    </style>
+    <!--INLINE CSS EXAMPLE-->
+    <h2>This is used for external External CSS</h2>
+    <p>This paragraph is styled using external CSS.</p>
+    <link rel="stylesheet" href="style.css">
+</body>
+</html>
